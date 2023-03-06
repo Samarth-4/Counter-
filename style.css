@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(0, 120, 248);
+}
+nav{
+    background-color: black;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    font-size: xx-large;
+}
+h1{
+    
+    margin: 0px 30px;
+}
+.op{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txt{
+    font-size: xx-large;
+}
+#num{
+    padding-left: 12px;
+    font-size: xx-large;
+}
+.buttons{
+    margin: 40px 25px;
+    display: flex;
+    justify-content: center;
+}
+button.inc{
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    margin: 0px 25px;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Lato', sans-serif;
+
+}
+button.res{
+    background-color: black;
+    color: antiquewhite;
+    margin: 0px 25px;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Lato', sans-serif;
+
+}
+button.dec{
+    background-color: black;
+    color: antiquewhite;
+    margin: 0px 25px;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Lato', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(196, 204, 255);
+    color: rgb(0, 0, 0);
+    border: 0px solid black;
+}
